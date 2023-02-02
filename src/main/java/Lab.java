@@ -37,6 +37,13 @@ public class Lab {
         int i = 0;
 
 //        code here
+        while (i < end){
+            
+            sum += i; // could also be sum = sum + i
+            i++;
+            // ++i; also works here
+            //needed to increment the conditional that runs the while loop
+        }
 
         return sum;
     }
